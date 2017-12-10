@@ -1,9 +1,8 @@
-- title: API Acquisitions Blog
+- title: GraphQL API Blog
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png'
   header: >-
     These are the blog posts I've writen on API Evangelist that I've tagged as
-    "acquisitions". Usually because they have some elements that speaks to why or how
-    we should be acquisitions our API resources.
+    "GraphQL". Providing another approach providing access to our resources, alongside REST, and other methodologis.
   footer: >-
     If you have a story you think I should telling about I recommend you write
     up the thought on your own blog and share a link with me, or feel free to
