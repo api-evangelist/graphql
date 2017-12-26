@@ -686,4 +686,22 @@
   url: https://medium.com/p/80138b7bcdc
   domain: medium.com
   image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_1607a2cef4f:f21b50:541f3c40
+  item_date: "2017-12-21 09:18:13"
+  title: "Introducing the Upcoming Open States GraphQL API \u2013 Open States"
+  url: https://blog.openstates.org/introducing-the-upcoming-open-states-graphql-api-838f9d023868
+  domain: blog.openstates.org
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_1607d6d0594:1f32f:98c4d03d
+  item_date: "2017-12-21 13:42:00"
+  title: The future of state management
+  url: https://medium.com/p/dd410864cae2
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_1608312cc3a:bf4a15:3c0bb656
+  item_date: "2017-12-23 02:46:18"
+  title: Building GraphQL Schema from REST API
+  url: https://medium.com/p/ee31ac12c57b
+  domain: medium.com
+  image: ""
 ...
