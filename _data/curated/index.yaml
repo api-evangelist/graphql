@@ -728,4 +728,10 @@
   url: http://nordicapis.com/?p=7520
   domain: nordicapis.com
   image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_160c4effabd:db7b7:b64595cf
+  item_date: "2018-01-04 06:59:22"
+  title: Understanding RPC, REST and GraphQL
+  url: https://medium.com/p/2f959aadebe7
+  domain: medium.com
+  image: ""
 ...
