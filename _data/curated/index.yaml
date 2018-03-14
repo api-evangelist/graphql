@@ -824,4 +824,16 @@
   url: http://blog.dreamfactory.com/dreamfactory-and-graphql
   domain: blog.dreamfactory.com
   image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_1621ff7fbab:14e6d47:bdf8aaf1
+  item_date: "2018-03-09 13:19:44"
+  title: How GraphQL Replaces Redux
+  url: https://medium.com/p/3fff8289221d
+  domain: medium.com
+  image: ""
+- curated_id: ZNdGxd8mL6LnFTOoULQQIrlbDWnbuOiTA42iRcwWCkA=_1621a7319d4:d2c1e0:76251cdd
+  item_date: "2018-03-12 06:42:47"
+  title: Introducing the Kloudless Query Language and new CRM connectors
+  url: http://blog.kloudless.com/?p=1693
+  domain: blog.kloudless.com
+  image: ""
 ...
