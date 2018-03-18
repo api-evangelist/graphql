@@ -836,4 +836,16 @@
   url: http://blog.kloudless.com/?p=1693
   domain: blog.kloudless.com
   image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_1622b6ceeb5:c811e1:76251cdd
+  item_date: "2018-03-15 12:11:06"
+  title: Reusable GraphQL schema directives
+  url: https://medium.com/p/131fb3a177d1
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_1622b6ceeb5:c811e4:76251cdd
+  item_date: "2018-03-15 13:11:01"
+  title: Bored with REST? GraphQL Introduced
+  url: https://medium.com/p/3e404679e8ed
+  domain: medium.com
+  image: ""
 ...
