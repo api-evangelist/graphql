@@ -878,4 +878,58 @@
   url: https://medium.com/p/1749311f33e1
   domain: medium.com
   image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_162bbd7a68d:fea4e:bdf8aaf1
+  item_date: "2018-04-12 07:27:52"
+  title: Modularizing your GraphQL schema code
+  url: https://medium.com/p/d7f71d5ed5f2
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_162d5af98da:61c973:76251cdd
+  item_date: "2018-04-17 09:37:26"
+  title: The essence of GraphQL
+  url: https://medium.com/p/4ecb7ebb6743
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_162dad640f5:cc5fe:a077e55f
+  item_date: "2018-04-18 08:12:11"
+  title: "v3@alpha.12 \u2014 GraphQL, Rich Text Editor & Redesigned Dashboard"
+  url: https://medium.com/p/25023dc4f090
+  domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_162e373b4ef:4b94afd:34f43e70
+  item_date: "2018-04-20 07:01:02"
+  title: Anatomy of Sails.js API With GraphQL
+  url: https://dzone.com/articles/2177385
+  domain: dzone.com
+  image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_162fbd05fc1:1f08d6:7d6c1c1c
+  item_date: "2018-04-24 08:53:00"
+  title: GraphQL is good, but it is not an alternative to REST services
+  url: https://jaxenter.com/graphql-good-no-alternative-rest-services-142814.html
+  domain: jaxenter.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_16304171e12:569913:fc1f8953
+  item_date: "2018-04-26 14:32:21"
+  title: REST vs. GraphQL APIs
+  url: https://medium.com/p/fceac82d113d
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_1632815843d:13f055:c2c34441
+  item_date: "2018-05-03 15:18:06"
+  title: 'GraphQL: 3 Years in, and lessons learned'
+  url: https://medium.com/p/34e8cd3fcfdd
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_1634f463c9d:2c8431:abeb7260
+  item_date: "2018-05-06 03:14:52"
+  title: "GraphQL Schemas On Steroid \u2014 Inheritance & Generic Types"
+  url: https://medium.com/p/f8802862778e
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_1635f4ce56c:d48a0f:f3bf0074
+  item_date: "2018-05-14 08:37:42"
+  title: Introduction to using GraphQl in React with Apollo
+  url: https://medium.com/p/f62e5737efbe
+  domain: medium.com
+  image: ""
 ...
