@@ -944,4 +944,58 @@
   url: https://medium.com/p/1501f3c59ed5
   domain: medium.com
   image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_164417ee790:276c330:386c987f
+  item_date: "2018-06-26 09:38:00"
+  title: "REST vs. GraphQL: A Critical Review \u2013 Good API"
+  url: https://blog.goodapi.co/rest-vs-graphql-a-critical-review-5f77392658e7
+  domain: blog.goodapi.co
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_1644105daed:2b2b1:e8d3bdb3
+  item_date: "2018-06-27 04:34:17"
+  title: Serverless GraphQL with FREE CDN & in
+  url: https://medium.com/p/766c1e29376a
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_164467dda68:2edf862:aa514a55
+  item_date: "2018-06-28 06:02:43"
+  title: Using a GraphQL API for Database Administration
+  url: https://medium.com/p/1a5039b43c8f
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_16472ece883:197c69:e8d3bdb3
+  item_date: "2018-07-06 09:32:54"
+  title: 'Tutorial: Create a Sports API using GraphQL'
+  url: https://medium.com/p/b3d5c28301a8
+  domain: medium.com
+  image: ""
+- curated_id: pJGm905BokLVZr/Pl24sMpd19eFuxZ/tV9dx1EzrkgY=_16493c0aa60:a04b2d9:4e0f6129
+  item_date: "2018-07-13 06:00:50"
+  title: SD Times Open
+  url: https://sdtimes.com/?p=31523
+  domain: sdtimes.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_164a2f95de1:b38e262:386c987f
+  item_date: "2018-07-16 04:50:50"
+  title: GraphQL Remote Schema Stitching in a Multi
+  url: https://medium.com/p/ac329037f082
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_164a466ba29:55a67a:e8d3bdb3
+  item_date: "2018-07-16 11:42:30"
+  title: Handling and documenting GraphQL errors using Apollo
+  url: https://medium.com/p/7a32de3547a1
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_164b200eddf:9a3e00:b83afde1
+  item_date: "2018-07-19 03:06:01"
+  title: Build a Realtime Serverless GraphQL API with Websockets on AWS
+  url: https://medium.com/p/d9e553a997
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_164b4239100:cbe996:96c12f47
+  item_date: "2018-07-19 13:03:04"
+  title: Announcing Apollo Server 2
+  url: https://medium.com/p/2b69fb4702ce
+  domain: medium.com
+  image: ""
 ...
