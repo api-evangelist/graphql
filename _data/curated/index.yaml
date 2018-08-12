@@ -998,6 +998,12 @@
   url: https://medium.com/p/2b69fb4702ce
   domain: medium.com
   image: ""
+- curated_id: yXkfkBK59KIeG/ROntxFN+zfv2Fb6VVxuxGX1lGsBR8=_16524689026:479f420:6f86c10b
+  item_date: "2018-08-06 11:00:00"
+  title: GraphQL on the server
+  url: https://www.joyent.com/blog/graphql-on-the-server
+  domain: www.joyent.com
+  image: ""
 - curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_16519e44e73:370b9c7:4db7ac35
   item_date: "2018-08-08 06:48:22"
   title: GraphQL for building Github source
