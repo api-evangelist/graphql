@@ -1052,4 +1052,70 @@
   url: https://medium.com/p/7582032b8d0
   domain: medium.com
   image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_165867b10cb:50941:3da9d93
+  item_date: "2018-08-29 09:18:54"
+  title: Build a GraphQL Service the easy way with AWS Amplify Model Transforms
+  url: https://medium.com/p/b3929b4f24c3
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_165935935ef:71af69:215b6325
+  item_date: "2018-08-31 03:51:36"
+  title: Building a Marvel Integration in Javascript, Using Our GraphQL API
+  url: https://medium.com/p/e48e5b045783
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_1659ef8efe9:23b87c5:4c71e4fe
+  item_date: "2018-09-03 03:12:57"
+  title: "GraphQL List \u2014 How to use arrays in GraphQL schema (GraphQL Modifiers)"
+  url: https://medium.com/p/309d53b44c6e
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_165ad199ac0:23a3b10:215b6325
+  item_date: "2018-09-05 08:47:06"
+  title: Layering GraphQL on top of REST
+  url: https://medium.com/p/569c915083ad
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_165b2403818:1407cb:215b6325
+  item_date: "2018-09-06 12:14:09"
+  title: Learning GraphQL
+  url: https://medium.com/p/4dbb7d8e1893
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_165d6ee8f8f:1b8cc1:57f528fd
+  item_date: "2018-09-13 01:37:48"
+  title: "Performance Tracing for GraphQL with Apollo and it\u2019s friends"
+  url: https://medium.com/p/877adf733322
+  domain: medium.com
+  image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_165dd28e837:a3af7b:3097813d
+  item_date: "2018-09-13 23:38:18"
+  title: 'Is GraphQL GitHub API more difficult to use than its REST variant? : programming'
+  url: https://www.reddit.com/r/programming/comments/9fpl4z/is_graphql_github_api_more_difficult_to_use_than/
+  domain: www.reddit.com
+  image: ""
+- curated_id: gok/N1aiGTOaio3XQiVmDps/etNkdYHQoJaEJNxzZOQ=_1664dfc8895:7383ff:d42b93be
+  item_date: "2018-10-01 12:02:24"
+  title: Top 5 things to Remember When Adding a GraphQL Backend
+  url: https://www.programmableweb.com/news/top-5-things-to-remember-when-adding-graphql-backend/analysis/2018/10/01
+  domain: www.programmableweb.com
+  image: ""
+- curated_id: 9QOGTVP+u4vwJNHB7SlLr9mbA0Mmqrsw3WZp2GL3orY=_166d77d404a:275e6a:df8f4700
+  item_date: "2018-10-05 19:22:49"
+  title: Goodbye REST APIs. Hello GraphQL!
+  url: https://www.infoq.com/presentations/rest-graphql
+  domain: www.infoq.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_166b106dca3:110298:20735c59
+  item_date: "2018-10-26 08:38:25"
+  title: 'Backend GraphQL: How to trigger an AWS AppSync mutation from AWS Lambda'
+  url: https://medium.com/p/eda13ebc96c3
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_166b3fd3823:c0be:20735c59
+  item_date: "2018-10-26 22:26:45"
+  title: Creating GraphQL Serverless Microservices
+  url: https://medium.com/p/1185c4c90207
+  domain: medium.com
+  image: ""
 ...
