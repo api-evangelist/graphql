@@ -1,0 +1,338 @@
+{
+  "$id": "graphql-introspection.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GraphQL Introspection Response",
+  "description": "Schema describing the structure of a GraphQL introspection query response. Introspection allows clients to discover the types, fields, directives, and capabilities of a GraphQL schema at runtime.",
+  "type": "object",
+  "required": [
+    "data"
+  ],
+  "properties": {
+    "data": {
+      "type": "object",
+      "required": [
+        "__schema"
+      ],
+      "properties": {
+        "__schema": {
+          "$ref": "#/$defs/Schema"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "Schema": {
+      "type": "object",
+      "description": "The root schema object returned by introspection, describing all types, directives, and entry points.",
+      "required": [
+        "queryType",
+        "types",
+        "directives"
+      ],
+      "properties": {
+        "description": {
+          "type": ["string", "null"],
+          "description": "An optional description of the schema."
+        },
+        "queryType": {
+          "$ref": "#/$defs/TypeRef",
+          "description": "The root query type of the schema."
+        },
+        "mutationType": {
+          "oneOf": [
+            { "$ref": "#/$defs/TypeRef" },
+            { "type": "null" }
+          ],
+          "description": "The root mutation type of the schema, if defined."
+        },
+        "subscriptionType": {
+          "oneOf": [
+            { "$ref": "#/$defs/TypeRef" },
+            { "type": "null" }
+          ],
+          "description": "The root subscription type of the schema, if defined."
+        },
+        "types": {
+          "type": "array",
+          "description": "A list of all types defined in the schema.",
+          "items": {
+            "$ref": "#/$defs/FullType"
+          }
+        },
+        "directives": {
+          "type": "array",
+          "description": "A list of all directives supported by the schema.",
+          "items": {
+            "$ref": "#/$defs/Directive"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "FullType": {
+      "type": "object",
+      "description": "A complete type definition from the GraphQL schema.",
+      "required": [
+        "kind",
+        "name"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "description": "The kind of type.",
+          "enum": [
+            "SCALAR",
+            "OBJECT",
+            "INTERFACE",
+            "UNION",
+            "ENUM",
+            "INPUT_OBJECT",
+            "LIST",
+            "NON_NULL"
+          ]
+        },
+        "name": {
+          "type": ["string", "null"],
+          "description": "The name of the type."
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "A description of the type."
+        },
+        "fields": {
+          "type": ["array", "null"],
+          "description": "The fields defined on this type (for OBJECT and INTERFACE types).",
+          "items": {
+            "$ref": "#/$defs/Field"
+          }
+        },
+        "inputFields": {
+          "type": ["array", "null"],
+          "description": "The input fields defined on this type (for INPUT_OBJECT types).",
+          "items": {
+            "$ref": "#/$defs/InputValue"
+          }
+        },
+        "interfaces": {
+          "type": ["array", "null"],
+          "description": "The interfaces this type implements (for OBJECT types).",
+          "items": {
+            "$ref": "#/$defs/TypeRef"
+          }
+        },
+        "enumValues": {
+          "type": ["array", "null"],
+          "description": "The possible values for this type (for ENUM types).",
+          "items": {
+            "$ref": "#/$defs/EnumValue"
+          }
+        },
+        "possibleTypes": {
+          "type": ["array", "null"],
+          "description": "The types that implement this interface or are part of this union.",
+          "items": {
+            "$ref": "#/$defs/TypeRef"
+          }
+        },
+        "specifiedByURL": {
+          "type": ["string", "null"],
+          "description": "A URL pointing to a specification for this custom scalar type."
+        }
+      },
+      "additionalProperties": false
+    },
+    "Field": {
+      "type": "object",
+      "description": "A field on an Object or Interface type.",
+      "required": [
+        "name",
+        "args",
+        "type"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the field."
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "A description of the field."
+        },
+        "args": {
+          "type": "array",
+          "description": "The arguments accepted by this field.",
+          "items": {
+            "$ref": "#/$defs/InputValue"
+          }
+        },
+        "type": {
+          "$ref": "#/$defs/TypeRef",
+          "description": "The return type of this field."
+        },
+        "isDeprecated": {
+          "type": "boolean",
+          "description": "Whether this field is deprecated."
+        },
+        "deprecationReason": {
+          "type": ["string", "null"],
+          "description": "The reason this field was deprecated."
+        }
+      },
+      "additionalProperties": false
+    },
+    "InputValue": {
+      "type": "object",
+      "description": "An argument to a field or directive, or an input field.",
+      "required": [
+        "name",
+        "type"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the input value."
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "A description of the input value."
+        },
+        "type": {
+          "$ref": "#/$defs/TypeRef",
+          "description": "The type of this input value."
+        },
+        "defaultValue": {
+          "type": ["string", "null"],
+          "description": "The default value of this input value, represented as a GraphQL literal string."
+        },
+        "isDeprecated": {
+          "type": "boolean",
+          "description": "Whether this input value is deprecated."
+        },
+        "deprecationReason": {
+          "type": ["string", "null"],
+          "description": "The reason this input value was deprecated."
+        }
+      },
+      "additionalProperties": false
+    },
+    "EnumValue": {
+      "type": "object",
+      "description": "A possible value for an Enum type.",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the enum value."
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "A description of the enum value."
+        },
+        "isDeprecated": {
+          "type": "boolean",
+          "description": "Whether this enum value is deprecated."
+        },
+        "deprecationReason": {
+          "type": ["string", "null"],
+          "description": "The reason this enum value was deprecated."
+        }
+      },
+      "additionalProperties": false
+    },
+    "TypeRef": {
+      "type": "object",
+      "description": "A reference to a type, which may be wrapped in List or NonNull modifiers.",
+      "properties": {
+        "kind": {
+          "type": "string",
+          "description": "The kind of the referenced type.",
+          "enum": [
+            "SCALAR",
+            "OBJECT",
+            "INTERFACE",
+            "UNION",
+            "ENUM",
+            "INPUT_OBJECT",
+            "LIST",
+            "NON_NULL"
+          ]
+        },
+        "name": {
+          "type": ["string", "null"],
+          "description": "The name of the referenced type (null for LIST and NON_NULL wrapper types)."
+        },
+        "ofType": {
+          "oneOf": [
+            { "$ref": "#/$defs/TypeRef" },
+            { "type": "null" }
+          ],
+          "description": "The wrapped type for LIST and NON_NULL kinds."
+        }
+      },
+      "additionalProperties": false
+    },
+    "Directive": {
+      "type": "object",
+      "description": "A directive defined in the GraphQL schema.",
+      "required": [
+        "name",
+        "locations",
+        "args"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the directive."
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "A description of the directive."
+        },
+        "isRepeatable": {
+          "type": "boolean",
+          "description": "Whether this directive may be used repeatedly at a single location."
+        },
+        "locations": {
+          "type": "array",
+          "description": "The locations where this directive may be used.",
+          "items": {
+            "type": "string",
+            "enum": [
+              "QUERY",
+              "MUTATION",
+              "SUBSCRIPTION",
+              "FIELD",
+              "FRAGMENT_DEFINITION",
+              "FRAGMENT_SPREAD",
+              "INLINE_FRAGMENT",
+              "VARIABLE_DEFINITION",
+              "SCHEMA",
+              "SCALAR",
+              "OBJECT",
+              "FIELD_DEFINITION",
+              "ARGUMENT_DEFINITION",
+              "INTERFACE",
+              "UNION",
+              "ENUM",
+              "ENUM_VALUE",
+              "INPUT_OBJECT",
+              "INPUT_FIELD_DEFINITION"
+            ]
+          }
+        },
+        "args": {
+          "type": "array",
+          "description": "The arguments accepted by this directive.",
+          "items": {
+            "$ref": "#/$defs/InputValue"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

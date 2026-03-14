@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "graphql": "https://spec.graphql.org/October2021/#",
+    "schema": "https://schema.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+
+    "GraphQLSchema": {
+      "@id": "graphql:sec-Schema",
+      "@type": "@id"
+    },
+    "GraphQLType": {
+      "@id": "graphql:sec-Types",
+      "@type": "@id"
+    },
+    "GraphQLField": {
+      "@id": "graphql:sec-Language.Fields",
+      "@type": "@id"
+    },
+    "GraphQLArgument": {
+      "@id": "graphql:sec-Language.Arguments",
+      "@type": "@id"
+    },
+    "GraphQLDirective": {
+      "@id": "graphql:sec-Language.Directives",
+      "@type": "@id"
+    },
+    "GraphQLQuery": {
+      "@id": "graphql:sec-Query",
+      "@type": "@id"
+    },
+    "GraphQLMutation": {
+      "@id": "graphql:sec-Mutation",
+      "@type": "@id"
+    },
+    "GraphQLSubscription": {
+      "@id": "graphql:sec-Subscription",
+      "@type": "@id"
+    },
+
+    "name": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+    "description": {
+      "@id": "schema:description",
+      "@type": "xsd:string"
+    },
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "query": {
+      "@id": "hydra:operation",
+      "@type": "xsd:string"
+    },
+    "variables": {
+      "@id": "hydra:mapping",
+      "@type": "@id"
+    },
+    "operationName": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+    "fields": {
+      "@id": "rdfs:member",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "types": {
+      "@id": "rdfs:Class",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "args": {
+      "@id": "hydra:expects",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "returnType": {
+      "@id": "hydra:returns",
+      "@type": "@id"
+    },
+    "isDeprecated": {
+      "@id": "schema:expires",
+      "@type": "xsd:boolean"
+    },
+    "deprecationReason": {
+      "@id": "schema:description",
+      "@type": "xsd:string"
+    },
+    "defaultValue": {
+      "@id": "schema:defaultValue",
+      "@type": "xsd:string"
+    },
+    "kind": {
+      "@id": "rdf:type",
+      "@type": "xsd:string"
+    }
+  }
+}

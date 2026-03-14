@@ -1,0 +1,39 @@
+{
+  "$id": "graphql-response.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GraphQL Response",
+  "description": "Schema describing the structure of a GraphQL response as defined by the GraphQL specification. A response contains data, errors, or both, along with optional extensions.",
+  "type": "object",
+  "properties": {
+    "data": {
+      "description": "The result of the requested operation. If an error occurs before execution begins, this field is not present. If an error occurs during execution, this field may be null or a partial result.",
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": true
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "errors": {
+      "type": "array",
+      "description": "A non-empty list of errors encountered during the request. Each error includes a message and may include location and path information.",
+      "items": {
+        "$ref": "graphql-error.json"
+      },
+      "minItems": 1
+    },
+    "extensions": {
+      "type": "object",
+      "description": "A map reserved for implementors to extend the protocol with additional response data.",
+      "additionalProperties": true
+    }
+  },
+  "anyOf": [
+    { "required": ["data"] },
+    { "required": ["errors"] }
+  ],
+  "additionalProperties": false
+}

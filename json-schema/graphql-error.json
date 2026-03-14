@@ -1,0 +1,56 @@
+{
+  "$id": "graphql-error.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GraphQL Error",
+  "description": "Schema describing a single error in a GraphQL response as defined by the GraphQL specification.",
+  "type": "object",
+  "required": [
+    "message"
+  ],
+  "properties": {
+    "message": {
+      "type": "string",
+      "description": "A human-readable description of the error."
+    },
+    "locations": {
+      "type": "array",
+      "description": "A list of locations in the GraphQL document associated with the error.",
+      "items": {
+        "type": "object",
+        "required": [
+          "line",
+          "column"
+        ],
+        "properties": {
+          "line": {
+            "type": "integer",
+            "description": "The line number (starting from 1) in the GraphQL document.",
+            "minimum": 1
+          },
+          "column": {
+            "type": "integer",
+            "description": "The column number (starting from 1) in the GraphQL document.",
+            "minimum": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "path": {
+      "type": "array",
+      "description": "The path to the response field that experienced the error, using field names and list indices.",
+      "items": {
+        "oneOf": [
+          { "type": "string" },
+          { "type": "integer" }
+        ]
+      }
+    },
+    "extensions": {
+      "type": "object",
+      "description": "A map reserved for implementors to add additional error information.",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

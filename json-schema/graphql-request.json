@@ -1,0 +1,31 @@
+{
+  "$id": "graphql-request.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GraphQL Request",
+  "description": "Schema describing the structure of a GraphQL request as defined by the GraphQL over HTTP specification. A GraphQL request contains a query string, optional variables, and an optional operation name.",
+  "type": "object",
+  "required": [
+    "query"
+  ],
+  "properties": {
+    "query": {
+      "type": "string",
+      "description": "A string containing the GraphQL document (query, mutation, or subscription) to be executed."
+    },
+    "operationName": {
+      "type": "string",
+      "description": "The name of the operation to execute, required when the document contains multiple operations."
+    },
+    "variables": {
+      "type": "object",
+      "description": "A map of variable names to their values, used to parameterize the GraphQL operation.",
+      "additionalProperties": true
+    },
+    "extensions": {
+      "type": "object",
+      "description": "A map reserved for implementors to extend the protocol with additional data.",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}
