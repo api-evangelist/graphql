@@ -24,6 +24,14 @@ common:
     url: https://graphql.org/blog/
   - type: JSONSchema
     url: json-schema/graphql-request.json
+  - type: JSONSchema
+    url: json-schema/graphql-response.json
+  - type: JSONSchema
+    url: json-schema/graphql-error.json
+  - type: JSONSchema
+    url: json-schema/graphql-introspection.json
+  - type: JSON-LD Context
+    url: json-ld/graphql-context.jsonld
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

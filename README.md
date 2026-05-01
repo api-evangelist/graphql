@@ -1,46 +1,35 @@
-# GraphQL API (graphql)
-A complete GraphQL API specification for querying and manipulating data
+# GraphQL (graphql)
+GraphQL is a query language for APIs and a runtime for fulfilling those queries with existing data. Developed by Facebook in 2012 and open-sourced in 2015, GraphQL provides a complete and understandable description of the data in an API, gives clients the power to ask for exactly what they need, and enables powerful developer tools. It is maintained by the GraphQL Foundation under the Linux Foundation.
 
-**URL:** [Visit APIs.json URL](https://api.example.com/graphql)
+**URL:** [Visit APIs.json URL](https://graphql.org/)
 
 ## Tags:
 
- - GraphQL, API, Query Language, Data Fetching
+ - Data Fetching, GraphQL, Query Language, Specification
 
 ## Timestamps
 
-- **Created:** 2024-01-01 
-- **Modified:** 2024-01-01 
+- **Created:** 2025-01-01
+- **Modified:** 2026-03-16
 
 ## APIs
 
-### GraphQL API
-Main GraphQL endpoint for all queries and mutations
+This index documents the GraphQL specification itself. Concrete GraphQL implementations are tracked in their own repositories.
 
-**Human URL:** [https://api.example.com/docs](https://api.example.com/docs)
+## Common Properties
 
-
-#### Tags:
-
- - GraphQL, Queries, Mutations, Subscriptions
-
-#### Properties
-
-- [x-graphql-schema](https://api.example.com/graphql/schema)
-- [x-graphql-playground](https://api.example.com/graphql/playground)
-- [x-documentation](https://api.example.com/docs)
-- [x-openapi](https://api.example.com/openapi.json)
-- [x-postman-collection](https://api.example.com/postman/collection.json)
-- [x-authentication](https://api.example.com/docs/authentication)
-- [x-rate-limits](https://api.example.com/docs/rate-limits)
-- [x-pricing](https://api.example.com/pricing)
-- [x-terms-of-service](https://api.example.com/terms)
-- [x-privacy-policy](https://api.example.com/privacy)
-- [x-support](https://api.example.com/support)
-- [x-status](https://status.example.com)
+- [Portal](https://graphql.org/)
+- [Documentation](https://graphql.org/learn/)
+- [Getting Started](https://graphql.org/learn/)
+- [Blog](https://graphql.org/blog/)
+- [JSONSchema](json-schema/graphql-request.json)
+- [JSONSchema](json-schema/graphql-response.json)
+- [JSONSchema](json-schema/graphql-error.json)
+- [JSONSchema](json-schema/graphql-introspection.json)
+- [JSON-LD Context](json-ld/graphql-context.jsonld)
 
 ## Maintainers
 
-**FN:** API Team
+**FN:** Kin Lane
 
-**Email:** api@example.com
+**Email:** kin@apievangelist.com
