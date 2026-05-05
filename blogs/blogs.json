@@ -1,0 +1,13 @@
+{
+  "repo": "graphql",
+  "feeds": [
+    {
+      "source": "https://graphql.org/blog/",
+      "feed_url": "https://graphql.org/blog/rss.xml",
+      "saved": 10,
+      "title": "Blog | GraphQL"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:29:13Z"
+}
