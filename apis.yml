@@ -18,7 +18,7 @@ common:
     url: https://graphql.org/
   - type: Documentation
     url: https://graphql.org/learn/
-  - type: Getting Started
+  - type: GettingStarted
     url: https://graphql.org/learn/
   - type: Blog
     url: https://graphql.org/blog/
