@@ -14,6 +14,8 @@ tags:
   - Specification
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/graphql
   - type: Portal
     url: https://graphql.org/
   - type: Documentation
