@@ -2,12 +2,20 @@
   "repo": "graphql",
   "feeds": [
     {
-      "source": "https://graphql.org/blog/",
+      "source": "https://graphql.org/blog/rss.xml",
       "feed_url": "https://graphql.org/blog/rss.xml",
-      "title": "Blog | GraphQL",
-      "saved": 40
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://graphql.org/learn/",
+      "feed_url": "https://graphql.org/learn/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 50,
-  "fetched": "2026-05-17T20:20:35Z"
+  "fetched": "2026-06-01T23:35:02Z"
 }
