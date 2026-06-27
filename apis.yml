@@ -32,7 +32,7 @@ common:
     url: json-schema/graphql-error.json
   - type: JSONSchema
     url: json-schema/graphql-introspection.json
-  - type: JSON-LD Context
+  - type: JSONLDContext
     url: json-ld/graphql-context.jsonld
 maintainers:
   - FN: Kin Lane
