@@ -1,7 +1,18 @@
 aid: graphql
 name: GraphQL
 description: GraphQL is a query language for APIs and a runtime for fulfilling those queries with existing data. Developed by Facebook in 2012 and open-sourced in 2015, GraphQL provides a complete and understandable description of the data in an API, gives clients the power to ask for exactly what they need, and enables powerful developer tools. It is maintained by the GraphQL Foundation under the Linux Foundation.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graphql.png
 url: https://graphql.org/
 created: '2025-01-01'
 modified: '2026-03-16'
