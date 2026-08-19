@@ -16,7 +16,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graphql.pn
 url: https://graphql.org/
 created: '2025-01-01'
 modified: '2026-03-16'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 type: Index
 tags:
   - Data Fetching
