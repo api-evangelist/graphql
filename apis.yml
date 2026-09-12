@@ -36,6 +36,8 @@ tags:
   - Specification
 apis: []
 common:
+  - type: Website
+    url: https://www.graphql.org/
   - type: DomainSecurity
     url: security/graphql-domain-security.yml
   - type: GitHubOrganization
