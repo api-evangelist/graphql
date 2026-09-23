@@ -1,0 +1,29 @@
+# Front Door AI Index — graphql — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: graphql
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.graphql.org
+  final_host: www.graphql.org
+  ownership: inherited
+  owner: graphql
+  shares_host_with: null
+  inherited_from: graphql.org
+  verdict: scored
+  score: null
+  host_score: 5
+  density: null
+  words: 1550
+  tiers:
+    agentic: 1
+    core: 4
+    model: 0
+  ambiguous: 3
+  top_terms:
+    AI: 3
+    intelligence: 2
+    LLMs: 1
+    agent: 1
+    model context protocol: 1
