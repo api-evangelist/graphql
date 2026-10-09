@@ -7,14 +7,17 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: www.graphql.org
   final_host: www.graphql.org
-  ownership: inherited
+  ownership: own
   owner: graphql
   shares_host_with: null
-  inherited_from: graphql.org
+  inherited_from: null
+  alias_of: graphql.org
   verdict: scored
-  score: null
+  score: 5
+  band: 4
+  band_label: moderate
   host_score: 5
-  density: null
+  density: 3.23
   words: 1550
   tiers:
     agentic: 1
