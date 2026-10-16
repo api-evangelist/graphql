@@ -2,11 +2,11 @@
   "repo": "graphql",
   "feeds": [
     {
-      "source": "https://graphql.org/learn/",
-      "feed_url": "https://graphql.org/learn/",
+      "source": "https://graphql.org/blog/",
+      "feed_url": "https://graphql.org/blog/rss.xml",
       "title": "",
       "saved": 0,
-      "method": "none"
+      "method": "discovered"
     },
     {
       "source": "https://graphql.org/blog/rss.xml",
@@ -14,10 +14,17 @@
       "title": "",
       "saved": 0,
       "method": "feed"
+    },
+    {
+      "source": "https://graphql.org/learn/",
+      "feed_url": "https://graphql.org/learn/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 53,
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
