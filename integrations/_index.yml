@@ -15,3 +15,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: graphql-eclipse-foundation-open-vsx
+  label: Eclipse Foundation (open-vsx)
+  partner: eclipse
+  partner_name: Eclipse Foundation (open-vsx)
+  category: IDE / developer extension marketplace listing
+  type: marketplace
+  marketplace: open-vsx
+  channel: partner-built
+  evidence: https://open-vsx.org/namespace/GraphQL
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null

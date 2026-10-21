@@ -2,6 +2,7 @@ generated: '2026-10-14'
 method: searched
 checked:
 - https://marketplace.visualstudio.com/vscode
+- eclipse/integrations/eclipse-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: Visual Studio Code Marketplace
@@ -24,5 +25,26 @@ edges:
   - Verified domain
   detected_by: sweep-devtools.py
   detected: '2026-10-14'
+- partner_name: Eclipse Foundation (open-vsx)
+  partner: eclipse
+  partner_match: mirror
+  mirror_match: domain+name-among-holders
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: open-vsx
+  evidence: https://open-vsx.org/namespace/GraphQL
+  mirror_of: eclipse/integrations/eclipse-integration-edges.yml
+  apps:
+  - 'GraphQL: Syntax Highlighting'
+  - 'GraphQL: Language Feature Support'
+  - 'GraphQL: Inline Operation Execution'
+  listing_count: 1
+  detected: '2026-10-20'
+  detected_by: mirror-platform-listings.py
+  category: IDE / developer extension marketplace listing
+  badges:
+  - Verified namespace
 source:
 - https://marketplace.visualstudio.com/vscode
